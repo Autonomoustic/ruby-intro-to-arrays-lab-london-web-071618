@@ -23,7 +23,7 @@ describe "working with arrays" do
 
     describe "#array_with_two_elements" do
       before(:each) do
-        @my_two_array = array_with_two_elements
+        @my_two_array = ["first", "second"]
       end
 
       it "creates a new array with two elements in it and returns that array" do
