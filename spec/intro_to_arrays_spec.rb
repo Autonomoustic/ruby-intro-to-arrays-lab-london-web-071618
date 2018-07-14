@@ -51,7 +51,7 @@ describe "working with arrays" do
 
     describe "#third_element" do
       it "takes in an argument of an array and returns the third element in the array using its positive index" do
-        my_third_element = third_element(@taylor_swift)
+        my_third_element = @taylor_swift[2]
         expect(my_third_element).to eq("Style")
       end
     end
