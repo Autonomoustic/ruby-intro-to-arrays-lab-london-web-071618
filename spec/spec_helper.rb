@@ -1,7 +1,7 @@
 
 RSpec.configure do |config|
 
-  def this_is_an_array
+  def my_new_array
     array = []
   end
 
