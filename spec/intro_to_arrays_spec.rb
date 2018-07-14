@@ -44,7 +44,7 @@ describe "working with arrays" do
 
     describe "#first_element" do
       it "takes in an argument of an array and returns the first element in the array using its positive index" do
-        @taylor_swift[0]
+        my_first_element = @taylor_swift[0]
         expect(my_first_element).to eq("Welcome to New York")
       end
     end
