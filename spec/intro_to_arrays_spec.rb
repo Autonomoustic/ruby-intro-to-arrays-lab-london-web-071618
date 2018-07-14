@@ -58,7 +58,7 @@ describe "working with arrays" do
 
     describe "#last_element" do
       it "takes in an argument of an array and returns the last element in the array using its negative index" do
-        my_last_element = last_element(@taylor_swift)
+        my_last_element = @taylor_swift[-1]
         expect(my_last_element).to eq("Out of The Woods")
       end
     end
